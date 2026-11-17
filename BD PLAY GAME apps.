@@ -1,0 +1,136 @@
+
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#090817">
+<meta name="description" content="BD Play Game Free Fire Tournament App ডাউনলোড করুন।">
+<title>BD PLAY GAME — Official Download</title>
+
+<style>
+*{box-sizing:border-box}
+body{
+ margin:0;
+ background:#080713;
+ color:white;
+ font-family:Arial,sans-serif;
+}
+.page{
+ min-height:100vh;
+ padding:26px 16px;
+ display:flex;
+ justify-content:center;
+ align-items:center;
+}
+.card{
+ width:100%;
+ max-width:570px;
+ padding:18px;
+ border:1px solid #ffffff25;
+ border-radius:25px;
+ background:linear-gradient(160deg,#17152a,#0d0b19);
+ text-align:center;
+}
+.art{
+ width:100%;
+ border-radius:18px;
+}
+.kicker{
+ color:#ffd52f;
+ margin-top:22px;
+ font-weight:bold;
+ letter-spacing:2px;
+}
+h1{font-size:36px}
+.desc{
+ color:#d0ccdf;
+ line-height:1.8;
+}
+.download{
+ display:block;
+ padding:18px;
+ border-radius:14px;
+ text-decoration:none;
+ color:#160914;
+ font-weight:bold;
+ font-size:19px;
+ background:linear-gradient(100deg,#ffe13c,#ff304d);
+}
+.pills{margin:20px 0}
+.pills span{
+ display:inline-block;
+ padding:8px;
+ border:1px solid #ffffff27;
+ border-radius:30px;
+ font-size:12px;
+}
+.instructions{
+ text-align:left;
+ padding:17px;
+ border-radius:15px;
+ background:#ffffff09;
+}
+.instructions h2{color:#ffd52f}
+.instructions li{
+ color:#c9c4d7;
+ line-height:2;
+}
+footer{
+ color:#77718c;
+ font-size:12px;
+ margin-top:20px;
+}
+</style>
+</head>
+
+<body>
+<main class="page">
+<section class="card">
+
+<img class="art"
+src="bd-play-game-logo.jpg"
+alt="BD Play Game">
+
+<div class="kicker">OFFICIAL ANDROID APP</div>
+
+<h1>BD PLAY GAME</h1>
+
+<p class="desc">
+Free Fire Tournament-এ অংশ নিতে আমাদের
+অ্যাপটি ডাউনলোড করুন।
+</p>
+
+<a class="download" href="download.php">
+⬇ APK ডাউনলোড করুন
+</a>
+
+<div class="pills">
+<span>ANDROID APK</span>
+<span>FREE DOWNLOAD</span>
+<span>BD PLAY GAME</span>
+</div>
+
+<div class="instructions">
+<h2>ইনস্টল করার নিয়ম</h2>
+<ol>
+<li>APK ডাউনলোড করুন।</li>
+<li>ডাউনলোড শেষ হলে ফাইলটি ওপেন করুন।</li>
+<li>প্রয়োজনে ইনস্টল অনুমতি দিন।</li>
+<li>Install চাপুন।</li>
+</ol>
+</div>
+
+<footer>
+© <span id="year"></span> BD PLAY GAME
+</footer>
+
+</section>
+</main>
+
+<script>
+document.getElementById('year').textContent =
+new Date().getFullYear();
+</script>
+</body>
+</html>
